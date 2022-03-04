@@ -19,26 +19,7 @@
             "contentVersion": "1.0.0.0"
           }
         }
-      },
-      {
-        "type": "Microsoft.Resources/deployments",
-        "apiVersion": "2021-04-01",
-        "name": "linkedADF",
-        
-        "dependsOn":["[resourceId('Microsoft.Resources/deployments', 'linkedADF')]"],
-
-        "properties": {
-          "mode": "Incremental",
-          "templateLink": {
-            "uri":"https://raw.githubusercontent.com/nirban191/Modular-Linked-tempates/master/ADFProcess.json",
-            "contentVersion":"1.0.0.0"
-          },
-          "parametersLink": {
-            "uri": "https://raw.githubusercontent.com/nirban191/Modular-Linked-tempates/master/ADFProcess.parameters.json",
-            "contentVersion": "1.0.0.0"
-          }
-        }
-      }
+      }      
     ]
     
     
