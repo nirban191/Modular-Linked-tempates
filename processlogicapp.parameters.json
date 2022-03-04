@@ -3,13 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "connections_office365_name": {
-            "value": null
+            "value": "office365"
         },
         "workflows_infralogicapp_name": {
-            "value": null
+            "value": "infralogicapp"
         },
         "integrationAccounts_LiquidIntegration_externalid": {
-            "value": null
+            "value":  "/subscriptions/5df527a2-240d-44fe-a163-2488e30b80fb/resourceGroups/test_env/providers/Microsoft.Logic/integrationAccounts/LiquidIntegration"
         }
     }
 }

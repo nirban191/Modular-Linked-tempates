@@ -3,13 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "connections_office365_1_name": {
-            "value": null
+            "value": "office365-1"
         },
         "connections_azuredatafactory_name": {
-            "value": null
+            "value": "azuredatafactory"
         },
         "workflows_infratriggerlogic_name": {
-            "value": null
+            "value":  "infratriggerlogic"
         }
     }
 }
